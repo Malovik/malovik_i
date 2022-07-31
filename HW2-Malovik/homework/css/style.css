@@ -1,0 +1,146 @@
+.tm-bg-color-primary {
+    background-color:#76cdd8;
+}
+
+.tm-quote:hover {
+    color: #76cdd8;
+    transition: all .3s linear;
+}
+
+.tm-text-color-primary {
+    color: #76cdd8;
+}
+
+.tm-col-md-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.btn.btn-primary {
+    background: #238178;
+    border: none;
+}
+
+.btn.btn-primary:hover {
+    background: rgb(118, 205, 216);
+}
+.btn.btn-secondary {
+    background: #238178;
+    border: none;
+}
+
+btn.btn-secondary:hover {
+    background: rgb(118, 205, 216);
+}
+
+.img-fluid:hover {
+    position: relative;
+    transition: all .2s linear;
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+section:nth-child(1) {
+    position: relative;
+}
+
+section:nth-child(1):hover::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    border-top: 80px solid #76cdd8;
+    border-left: 80px solid transparent;
+}
+
+section:nth-child(2) {
+    position: relative;
+}
+
+section:nth-child(2):hover::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    border-top: 80px solid #76cdd8;
+    border-right: 80px solid transparent;
+}
+
+section:nth-child(3) {
+    position: relative;
+}
+
+section:nth-child(3):hover::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    border-top: 80px solid #76cdd8;
+    border-left: 80px solid transparent;
+}
+
+section:nth-child(5) {
+    margin: 50px 0 0 0;
+
+}
+.tm-pricing-header {
+    background-color: #238178;
+    border-color: #76cdd8 ;
+}
+.tm-bg-color-secondary  {
+    background-color: #238178;
+}
+
+.tm-pricing-table {
+    border-color: #238178;
+}
+
+.tm-pricing-table:hover {
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+    transition: all .2s linear;
+    border: none;
+    transform: scale(1.05);
+    transition: all .3s linear;
+}
+.btn-secondary {
+    background-color: #24d4d4;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(118, 205, 216);
+    border-color: #24d4d4;
+    transition: all .2s linear;
+}
+
+section:nth-child(6) {
+    margin: 50px 0 0 0;
+}
+
+.tm-form-header {
+    background-color: #24d4d4;
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+
+.tm-contact-form {
+    position: relative;
+    z-index: 3;
+    bottom: 50px;
+}
+
+.tm-form-footer {
+    position: relative;
+    z-index: 2;
+    bottom: 100px;
+
+}
+
+
